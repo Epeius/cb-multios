@@ -2,6 +2,9 @@
 
 set -e
 
+CC=/usr/bin/clang
+CXX=/usr/bin/clang++
+
 # Root cb-multios directory
 DIR=$(cd "$(dirname ${BASH_SOURCE[0]})" && pwd)
 TOOLS="$DIR/tools"
